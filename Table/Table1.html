@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+</head>
+
+<style>
+
+table {
+   width:100%;
+   }
+
+th, td {border-style: groove;
+    padding: 15px;
+    }
+
+#t01 {  border-top-style: outset;
+  border-right-style: outset;
+  border-left-style: outset;}
+
+#t02 {border-right-style: outset;
+  border-left-style: outset;}
+
+#t03 {
+  border-right-style: outset;
+  border-bottom-style: outset;
+  border-left-style: outset;}
+
+</style>
+
+<body>
+    <table id="t01">
+         
+           <tr>
+
+               <th>Purchased Equipments (June, 2006)</th>
+              
+           </tr>
+    
+    </table>
+    <table id="t02">
+          
+          <tr>
+
+             <th rowspan="2">Item Num#</th>
+             <th rowspan="2">Item Picture</th>
+             <th>Item Description</th>
+             <th>Price</th>
+          
+          </tr>
+          <tr>
+             
+             <th>Shipping Handling, Installation, etc</th>
+             <th>Expense</th>
+
+          </tr>
+          <tr>
+             
+             <td rowspan="2">1.</td>
+             <td rowspan="2"><img src="images/computer.png" height="100" /></td>
+             <td>IBM Clone Computer.</td>
+             <td>$ 400.00</td>
+           
+          </tr>
+          <tr>
+
+             <td>Shipping Handling, Installation, etc</td>
+             <td>$ 20.00</td>
+
+          </tr>
+          <tr>
+
+            <td rowspan="2">2.</td>
+            <td rowspan="2"><img src="images/RAM.jpg" height="100" /></td>
+            <td>1GB RAM Module for Computer.</td>
+            <td>$ 50.00</td>
+
+          </tr>
+          <tr>
+
+             <td>Shipping Handling, Installation, etc</td>
+             <td>$ 14.00</td>
+
+          </tr>
+
+    </table>
+    <table id="t03">
+
+           <tr>
+
+               <th>Purchased Equipments (June, 2006)</th>
+              
+           </tr>
+
+    </table>
+</body>
+</html>
