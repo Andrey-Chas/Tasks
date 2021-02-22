@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <script src="js/task02.js"></script>
+    <link href="style/task_02.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h3>Calculator</h3>
+
+    <table>
+
+        <tr>
+            <th>Number 1:</th>
+            <td>
+                <input id="a1" />
+            </td>
+        </tr>
+        <tr>
+            <th>Number 2:</th>
+            <td>
+                <input id="b1" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    <select id="options">
+                        <option value="add">+</option>
+                        <option value="sub">-</option>
+                        <option value="mul">x</option>
+                        <option value="div">/</option>
+                    </select><br />
+                    <button type="button" onclick="arithmetic()">=</button>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Result:</th>
+        </tr>
+        <tr>
+            <td class="styleborder">
+                <p id="result"></p>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
