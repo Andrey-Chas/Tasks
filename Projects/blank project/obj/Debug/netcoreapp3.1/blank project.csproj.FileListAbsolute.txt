@@ -1,0 +1,20 @@
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\blank project.exe
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\blank project.deps.json
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\blank project.runtimeconfig.json
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\blank project.runtimeconfig.dev.json
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\blank project.dll
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\bin\Debug\netcoreapp3.1\blank project.pdb
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.csprojAssemblyReference.cache
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.AssemblyInfoInputs.cache
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.AssemblyInfo.cs
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.csproj.CoreCompileInputs.cache
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\staticwebassets\blank project.StaticWebAssets.Manifest.cache
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\staticwebassets\blank project.StaticWebAssets.xml
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\scopedcss\bundle\blank project.styles.css
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.RazorTargetAssemblyInfo.cache
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.dll
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.pdb
+C:\Users\Andi\Downloads\VUM\JS Programming\Projects\Projects\blank project\obj\Debug\netcoreapp3.1\blank project.genruntimeconfig.cache
