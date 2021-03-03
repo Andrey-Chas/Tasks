@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Compare</title>
+    <script src="js/compare.js"></script>
+</head>
+<body>
+
+    <div>Number 1:<input id="numberA" /></div>
+    <div>Number 2:<input id="numberB" /></div><br/>
+    <form>
+        <select id="operation">
+            <option value="sum">Sum</option>
+            <option value="mul">Multiple</option>
+            <option value="min">Minimum</option>
+            <option value="max">Maximum</option>
+        </select><br/><br/>
+        <button type="button" onclick="computeNumbers(numberA, numberB, operation)">Carry out option</button>
+    </form><br/>
+    <div>Result:</div>
+    <div id="result"></div>
+
+</body>
+</html>

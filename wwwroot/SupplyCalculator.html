@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Supply Calculator</title>
+    <link href="style/supplyCalculatort.css" rel="stylesheet" />
+</head>
+<body>
+
+    <table>
+
+        <tr>
+            <th class="aboveTable">Input</th>
+            <th class="aboveTable1">Output</th>
+        </tr>
+        <tr>
+            <th>Input age:<input id="age" type="number" /></th>
+            <td>
+                <div id="result"></div>
+            </td>
+        </tr>
+        <tr>
+            <th>Input MaxAge:<input id="maxAge" type="number" /></th>
+        </tr>
+        <tr>
+            <th>Input food:<input id="food" type="text" /></th>
+        </tr>
+        <tr>
+            <th>Input food consumed per day:<input id="foodPerDay" type="number" /></th>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="calcSupply(age, maxAge, food, foodPerDay)">Submit</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <script src="js/supplycalculator.js"></script>
+</body>
+</html>

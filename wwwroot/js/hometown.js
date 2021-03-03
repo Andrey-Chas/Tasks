@@ -1,0 +1,1 @@
+﻿alert("My hometown is Moscow");
