@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <script src="jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/memorygame.js"></script>
+    <link href="style/styleformemorygame.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1 class="mainTitle">Memory Game</h1>
+    <h3 class="center">Choose game mode:</h3>
+    <div id="playerOne" class="center">Play</div>
+
+    <div>
+
+        <h1 hidden id="game" class="center1">Memory Game</h1>
+
+        <table hidden class="board">
+
+            <tr>
+                <td>
+                    <img data-x="0" data-y="0" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="0" data-y="1" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="0" data-y="2" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="0" data-y="3" src="images/coverImg.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img data-x="1" data-y="0" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="1" data-y="1" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="1" data-y="2" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="1" data-y="3" src="images/coverImg.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img data-x="2" data-y="0" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="2" data-y="1" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="2" data-y="2" src="images/coverImg.jpg" />
+                </td>
+                <td>
+                    <img data-x="2" data-y="3" src="images/coverImg.jpg" />
+                </td>
+            </tr>
+
+        </table>
+
+        <table hidden class="move">
+            <tr>
+                <th>
+                    <div>Player 1</div>
+                </th>
+            </tr>
+        </table>
+
+        <table hidden class="move">
+            <tr>
+                <th>
+                    <div>Moves:</div>
+                </th>
+                <th>
+                    <div id="resultMove">0</div>
+                </th>
+                <th>
+                    <div>Score:</div>
+                </th>
+                <th>
+                    <div id="resultScore">0</div>
+                </th>
+            </tr>
+        </table>
+
+        <table hidden class="move">
+            <tr>
+                <th>
+                    <div>Player 2</div>
+                </th>
+            </tr>
+        </table>
+
+        <table hidden class="move">
+            <tr>
+                <th>
+                    <div>Moves:</div>
+                </th>
+                <th>
+                    <div id="resultMove1">0</div>
+                </th>
+                <th>
+                    <div>Score:</div>
+                </th>
+                <th>
+                    <div id="resultScore1">0</div>
+                </th>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
