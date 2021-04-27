@@ -1,0 +1,37 @@
+﻿.board {
+    border: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boardMain {
+    border: solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img.click1 {
+    pointer-events: none;
+}
+
+.styleForTd {
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.changePlayerColour {
+    background-color: blue;
+    color: white;
+}

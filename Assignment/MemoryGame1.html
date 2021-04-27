@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <script src="jQuery/jquery-3.6.0.min.js"></script>
+    <link href="style/memoryGame1.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="main">
+
+        <table class="boardMain">
+            <tr>
+                <td>
+                    <h1 style="text-align:center">Memory Game</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="p1" style="text-align:center; cursor:pointer">One player</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="p2" style="text-align:center; cursor:pointer">Two players</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div hidden id="boardGame">
+
+        <table class="board">
+            <tr>
+                <td class="styleForTd">
+                    <img id="a1" onclick="flip()" src="images/coverImg.jpg" />
+                    <span hidden id="b1"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a2" onclick="flip1()" src="images/coverImg.jpg" />
+                    <span hidden id="b2"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a3" onclick="flip2()" src="images/coverImg.jpg" />
+                    <span hidden id="b3"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a4" onclick="flip3()" src="images/coverImg.jpg" />
+                    <span hidden id="b4"></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="styleForTd">
+                    <img id="a5" onclick="flip4()" src="images/coverImg.jpg" />
+                    <span hidden id="b5"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a6" onclick="flip5()" src="images/coverImg.jpg" />
+                    <span hidden id="b6"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a7" onclick="flip6()" src="images/coverImg.jpg" />
+                    <span hidden id="b7"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a8" onclick="flip7()" src="images/coverImg.jpg" />
+                    <span hidden id="b8"></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="styleForTd">
+                    <img id="a9" onclick="flip8()" src="images/coverImg.jpg" />
+                    <span hidden id="b9"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a10" onclick="flip9()" src="images/coverImg.jpg" />
+                    <span hidden id="b10"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a11" onclick="flip10()" src="images/coverImg.jpg" />
+                    <span hidden id="b11"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="a12" onclick="flip11()" src="images/coverImg.jpg" />
+                    <span hidden id="b12"></span>
+                </td>
+            </tr>
+        </table>
+
+        <table class="board">
+            <tr>
+                <th>
+                    <div id="onePlayer">Player 1: </div>
+                </th>
+                <td>
+                    <div>moves: </div>
+                </td>
+                <td>
+                    <div id="move">0</div>
+                </td>
+                <td>
+                    <div>scores: </div>
+                </td>
+                <td>
+                    <div id="score">0</div>
+                </td>
+            </tr>
+        </table>
+
+        <div hidden id="secondPlayer">
+            <table class="board">
+                <tr>
+                    <th>
+                        <div id="twoPlayer">Player 2: </div>
+                    </th>
+                    <td>
+                        <div>moves: </div>
+                    </td>
+                    <td>
+                        <div id="move1">0</div>
+                    </td>
+                    <td>
+                        <div>scores: </div>
+                    </td>
+                    <td>
+                        <div id="score1">0</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <h3 hidden class="centre" id="match">Match!</h3>
+
+    </div>
+
+    <div hidden id="congratulations" class="centre">
+        <h1>Congratulations!</h1><br />
+        <p id="message"></p>
+        <button type="button" onclick="reload()">Start a new game</button>
+    </div>
+
+    <div hidden id="congratulationsForTwo" class="centre">
+        <h1>Congratulations!</h1><br />
+        <h3 id="winner"></h3>
+        <p id="message1Line1"></p>
+        <p id="message1Line2"></p>
+        <button type="button" onclick="reload()">Start a new game</button>
+    </div>
+
+    <script src="js/memorygame1.js"></script>
+</body>
+</html>
