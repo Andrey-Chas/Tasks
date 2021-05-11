@@ -30,6 +30,39 @@
                     <div id="p2" style="text-align:center; cursor:pointer">Two players</div>
                 </td>
             </tr>
+            <tr>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="p3" style="text-align:center; cursor:pointer">Three player</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div hidden id="boardSize">
+
+        <table class="boardMain">
+            <tr>
+                <td>
+                    <h1 style="text-align:center">Memory Game</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form class="centre">
+                        Board size:
+                        <select id="size">
+                            <option value="small">4x3</option>
+                            <option value="medium">4x4</option>
+                            <option value="large">5x4</option>
+                        </select>
+                        <div id="start" style="text-align:center; cursor: pointer">Start game</div>
+                    </form>
+                </td>
+            </tr>
         </table>
     </div>
 
@@ -53,6 +86,10 @@
                     <img id="a4" onclick="flip3()" src="images/coverImg.jpg" />
                     <span hidden id="b4"></span>
                 </td>
+                <td hidden id="additional1" class="styleForTd">
+                    <img id="add5" onclick="flipAdd5()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd5"></span>
+                </td>
             </tr>
             <tr>
                 <td class="styleForTd">
@@ -71,6 +108,10 @@
                     <img id="a8" onclick="flip7()" src="images/coverImg.jpg" />
                     <span hidden id="b8"></span>
                 </td>
+                <td hidden id="additional2" class="styleForTd">
+                    <img id="add6" onclick="flipAdd6()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd6"></span>
+                </td>
             </tr>
             <tr>
                 <td class="styleForTd">
@@ -88,6 +129,33 @@
                 <td class="styleForTd">
                     <img id="a12" onclick="flip11()" src="images/coverImg.jpg" />
                     <span hidden id="b12"></span>
+                </td>
+                <td hidden id="additional3" class="styleForTd">
+                    <img id="add7" onclick="flipAdd7()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd7"></span>
+                </td>
+            </tr>
+
+            <tr hidden id="additional">
+                <td class="styleForTd">
+                    <img id="add1" onclick="flipAdd()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd1"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="add2" onclick="flipAdd2()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd2"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="add3" onclick="flipAdd3()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd3"></span>
+                </td>
+                <td class="styleForTd">
+                    <img id="add4" onclick="flipAdd4()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd4"></span>
+                </td>
+                <td hidden id="additional4" class="styleForTd">
+                    <img id="add8" onclick="flipAdd8()" src="images/coverImg.jpg" />
+                    <span hidden id="bAdd8"></span>
                 </td>
             </tr>
         </table>
@@ -134,6 +202,28 @@
             </table>
         </div>
 
+        <div hidden id="thirdPlayer">
+            <table class="board">
+                <tr>
+                    <th>
+                        <div id="threePlayer">Player 3: </div>
+                    </th>
+                    <td>
+                        <div>moves: </div>
+                    </td>
+                    <td>
+                        <div id="move2">0</div>
+                    </td>
+                    <td>
+                        <div>scores: </div>
+                    </td>
+                    <td>
+                        <div id="score2">0</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
         <h3 hidden class="centre" id="match">Match!</h3>
 
     </div>
@@ -149,6 +239,15 @@
         <h3 id="winner"></h3>
         <p id="message1Line1"></p>
         <p id="message1Line2"></p>
+        <button type="button" onclick="reload()">Start a new game</button>
+    </div>
+
+    <div hidden id="congratulationsForThree" class="centre">
+        <h1>Congratulations!</h1><br />
+        <h3 id="winner1"></h3>
+        <p id="message2Line1"></p>
+        <p id="message2Line2"></p>
+        <p id="message2Line3"></p>
         <button type="button" onclick="reload()">Start a new game</button>
     </div>
 
