@@ -3024,13 +3024,13 @@ function message() {
             else if (scores1 == scores2 && scores1 > scores) {
                 document.getElementById("winner1").innerHTML = "The winners are Player 2 and Player 3!"
             }
-            else if (scores > scores1 || scores > scores2) {
+            else if (scores > scores1 && scores > scores2) {
                 document.getElementById("winner1").innerHTML = "The winner is Player 1!"
             }
-            else if (scores1 > scores || scores1 > scores2) {
+            else if (scores1 > scores && scores1 > scores2) {
                 document.getElementById("winner1").innerHTML = "The winner is Player 2!"
             }
-            else if (scores2 > scores || scores2 > scores1) {
+            else if (scores2 > scores && scores2 > scores1) {
                 document.getElementById("winner1").innerHTML = "The winner is Player 3!"
             }
             document.getElementById("message2Line1").innerHTML = "Player 1 has completed the game in " + moves + " moves and earned " + scores + " scores!";
